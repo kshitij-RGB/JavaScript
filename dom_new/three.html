@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Elment in DOM</title>
+</head>
+<body style="background-color: black; color-scheme: white;">
+    
+</body>
+<script>
+    const div = document.createElement('div')
+    console.dir(div);
+    div.className = "main"
+    div.id = Math.round(Math.random()*10 + 1)
+    div.setAttribute("title", "New Div")
+    div.style.backgroundColor = "green"
+    div.style.color = "white"
+    // div.innerText = "This is a DOM created div"
+    const addText = document.createTextNode("This is a created Div")
+    div.appendChild(addText)
+    document.body.appendChild(div)
+</script>
+</html>

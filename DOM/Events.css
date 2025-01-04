@@ -1,0 +1,17 @@
+div{
+    height: 200px;
+    width: 200px;
+    align-content: center;
+    text-align: center;
+    background-color: pink;
+
+}
+
+.dark {
+    background-color: black;
+    color:white;
+}
+.light{
+    background-color: white;
+    color: black;
+}

@@ -1,0 +1,29 @@
+const myHeros = ["Thor","Iron Man","Spiderman"]
+const dc = ["Superman","Flash","Batman"]
+//These creates a problematic array
+// myHeros.push(dc)
+// console.log(myHeros);
+// //or
+// myHeros.concat(dc)
+// console.log(myHeros);
+
+// const allHeros = myHeros.concat(dc);
+// console.log(allHeros);
+
+// const allNewHeros = [...myHeros, ...dc]
+// console.log(allNewHeros);
+
+// const unusableArr = [1,2,3,[4,5],[6,[7,8],9]]
+// console.log(unusableArr);
+// const usableArr = unusableArr.flat(Infinity)
+// console.log(usableArr);
+
+// console.log(Array.isArray("Kshitij"));
+// console.log(Array.from("Kshitij"));
+// console.log(Array.from({name: "Kshitij"})) //interesting case
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1,score2,score3));

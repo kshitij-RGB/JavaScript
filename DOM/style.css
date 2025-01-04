@@ -1,0 +1,12 @@
+h1{
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    text-decoration: underline ;
+    padding: 5px;
+    border-radius: 10px;
+}
+body{
+    background: pink;
+    font-style: italic;
+}
